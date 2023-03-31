@@ -1,5 +1,9 @@
 # print(a,end="") means print on same line for example in a For loop
 
+# -------------------For Loop with multiple variables in an element of any iterable data structure -----------------------
+list=[["islamabad","pakistan",12],["peshawar","pakistan",15],["new Delhi","india",5]]
+for i,j,k in list:  # the number of variables must match the values in the element of the list. Each Corresponding value will be assigned to the variable
+    print(i,"is located in",j,"with a rating of",k)
 
 # ---------------------------------------- Comprehension For Loop -------------------------------------
 
